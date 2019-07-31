@@ -1,3 +1,3 @@
-a=str(input())
-b=a[::-1]
-print(b)
+karthi1=str(input())
+karthi2=karthi1[::-1]
+print(karthi2)
