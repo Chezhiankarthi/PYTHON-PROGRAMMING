@@ -1,4 +1,7 @@
 num=int(input())
-a=list(map(int,input().split()))
+a=list(map(int,input().split()))[:num]
 a.sort(reverse=True)
-print(*a,sep="")
+if a[0]==0:
+  print("0")
+else:
+  print(*a,sep="")
